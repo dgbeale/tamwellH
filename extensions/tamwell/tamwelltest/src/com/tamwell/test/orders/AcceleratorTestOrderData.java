@@ -56,7 +56,7 @@ import org.springframework.beans.factory.annotation.Required;
 
 
 /**
- * Create test order data
+ * Create test order dataa
  */
 public class AcceleratorTestOrderData
 {
