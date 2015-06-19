@@ -13,11 +13,11 @@
  */
 package com.tamwell.core.checkout.flow.impl;
 
-import de.hybris.platform.cms2.model.site.CMSSiteModel;
-import de.hybris.platform.cms2.servicelayer.services.CMSSiteService;
 import de.hybris.platform.acceleratorservices.checkout.flow.CheckoutFlowStrategy;
 import de.hybris.platform.acceleratorservices.checkout.flow.impl.AbstractCheckoutFlowStrategy;
 import de.hybris.platform.acceleratorservices.enums.CheckoutFlowEnum;
+import de.hybris.platform.cms2.model.site.CMSSiteModel;
+import de.hybris.platform.cms2.servicelayer.services.CMSSiteService;
 
 import java.util.Map;
 
@@ -26,10 +26,12 @@ import org.springframework.beans.factory.annotation.Required;
 
 import com.google.common.base.Preconditions;
 
-
+ 
 /**
  * Uid site mapping based flow strategy. If there is no mapping configured for current site uid uses
  * {@link #getDefaultStrategy()} flow.
+ * 
+ * test
  * 
  * @since 4.6
  * @spring.bean siteCheckoutFlowStrategy
